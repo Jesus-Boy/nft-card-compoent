@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  font-family: "Outfit", sans-serif;
+  margin: 10% auto;
+  width: 325px;
+  padding: 24px 0 0;
+}
+
+.main-image {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.text-section {
+  padding: 0 8% 0 8%;
+}
+
+.value {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+}
+
+.etherum {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+.days {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  text-align: right;
+  margin: auto 0;
+}
+
+hr {
+  border: 0.5px solid hsl(215, 32%, 27%);
+}
+h4,
+h2:hover,
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+h2,
+span {
+  color: white;
+}
+
+.credit-section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 0 0 5% 0;
+}
+
+.avatar {
+  width: 70%;
+  border: solid 0.5px white;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+
+.credit {
+  text-align: left;
+}
+
+.main-image:hover {
+  opacity: 0.3;
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    width: 420px;
+    padding: 25px 0 0 0;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .text-section {
+    padding-top: 30px;
+  }
+}
